@@ -1,0 +1,45 @@
+﻿<Window x:Class="ShowNumber.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShowNumber"
+        mc:Ignorable="d"
+        Title="Hack Mobile number" Height="488" Width="368" Icon="/World_World_minimalist_oval_gradient_logo_for_smartphone_brand__f533a2e6-7c8c-4125-9971-9528539a96ee.png" MaxWidth="368" MaxHeight="488">
+    <Grid Margin="0,0,0,-16">
+
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White"/>
+                <GradientStop Color="#FFEDE23E" Offset="0.99"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Введіть номер телефону" HorizontalAlignment="Left" Margin="32,42,0,0" VerticalAlignment="Top" Width="223" FontSize="16" FontFamily="Cascadia Code" Foreground="#FF0031B1" Grid.ColumnSpan="2"/>
+        <!--<TextBox x:Name="TextNumber" Margin="32,93,117,0" TextWrapping="Wrap" Text="+" VerticalAlignment="Top" FontSize="14" FontFamily="Source Code Pro Semibold" />-->
+        <TextBox x:Name="TextNumber" Margin="32,93,117,0"  Text="+" VerticalAlignment="Top"   />
+
+        <Button Content="Hack" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="32,133,0,0" VerticalAlignment="Top" Width="67" Click="Button_Click"/>
+        <Label Content="Дійсний" HorizontalAlignment="Left" Margin="32,191,0,0" VerticalAlignment="Top"/>
+        <Label Content="Номер" HorizontalAlignment="Left" Margin="32,217,0,0" VerticalAlignment="Top"/>
+        <Label Content="Локальний формат" HorizontalAlignment="Left" Margin="32,243,0,0" VerticalAlignment="Top"/>
+        <Label Content="Міжнародний формат" HorizontalAlignment="Left" Margin="32,269,0,0" VerticalAlignment="Top"/>
+        <Label Content="Державний префікс" HorizontalAlignment="Left" Margin="32,295,0,0" VerticalAlignment="Top"/>
+        <Label Content="Державний код" HorizontalAlignment="Left" Margin="32,321,0,0" VerticalAlignment="Top"/>
+        <Label Content="Держава" HorizontalAlignment="Left" Margin="32,347,0,0" VerticalAlignment="Top"/>
+        <Label Content="Місто" HorizontalAlignment="Left" Margin="32,373,0,0" VerticalAlignment="Top"/>
+        <Label Content="Оператор" HorizontalAlignment="Left" Margin="32,398,0,0" VerticalAlignment="Top"/>
+        <!--<TextBox x:Name="T_valid" Margin="191,195,57,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" HorizontalAlignment="Left"/>-->
+        <TextBox x:Name="T_number" HorizontalAlignment="Left" Margin="191,225,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="T_localFormat" HorizontalAlignment="Left" Margin="191,251,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="T_internationalFormat" HorizontalAlignment="Left" Margin="191,277,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="T_countryPrefix" HorizontalAlignment="Left" Margin="191,303,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="T_countryCode" HorizontalAlignment="Left" Margin="191,329,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="T_countryName" HorizontalAlignment="Left" Margin="191,355,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="T_location" HorizontalAlignment="Left" Margin="191,381,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="T_carrier" HorizontalAlignment="Left" Margin="191,406,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="T_valid" HorizontalAlignment="Left" Margin="191,199,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+
+
+    </Grid>
+</Window>
